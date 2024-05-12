@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+package-lock.json
+public/js/.DS_Store
+public/fonts/icomoon/icomoon/.DS_Store
+public/images/.DS_Store
+public/fonts/icomoon/.DS_Store
+public/fonts/.DS_Store
+public/css/.DS_Store
