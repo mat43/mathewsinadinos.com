@@ -546,7 +546,22 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
   position: relative;
   width: 100%;
-  height: 450px;
+  height: 355px;
+  padding: 30px;
+  float: left;
+  background: #fff;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.project .project-text2 {
+  margin-bottom: 30px;
+  position: relative;
+  width: 100%;
+  height: 410px;
   padding: 30px;
   float: left;
   background: #fff;
@@ -561,8 +576,17 @@ h1, h2, h3, h4, h5, h6, figure {
   .project .project-text {
     padding: 10px;
   }
+    .project .project-text2 {
+    padding: 10px;
+  }
 }
 .project .project-text span {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 18px !important;
+  color: rgba(0, 0, 0, 0.3);
+}
+.project .project-text2 span {
   display: inline-block;
   margin-bottom: 20px;
   font-size: 18px !important;
@@ -574,7 +598,18 @@ h1, h2, h3, h4, h5, h6, figure {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   padding-top: 20px;
 }
+.project .project-text2 .stuff {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-top: 20px;
+}
 .project .project-text .stuff li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+.project .project-text2 .stuff li {
   list-style: none;
   display: inline-block;
   margin-left: 10px;
@@ -583,21 +618,41 @@ h1, h2, h3, h4, h5, h6, figure {
   .project .project-text .stuff li {
     font-size: 14px;
   }
+    .project .project-text2 .stuff li {
+    font-size: 14px;
+  }
 }
 .project .project-text .stuff li:first-child {
+  margin-left: 0;
+}
+.project .project-text2 .stuff li:first-child {
   margin-left: 0;
 }
 .project .project-text .stuff li:last-child {
   float: left;
 }
+.project .project-text2 .stuff li:last-child {
+  float: left;
+}
 .project .project-text .stuff li:last-child a {
+  color: #000;
+}
+.project .project-text2 .stuff li:last-child a {
   color: #000;
 }
 .project .project-text .stuff li:last-child i {
   padding-right: 0;
   padding-left: 10px;
 }
+.project .project-text2 .stuff li:last-child i {
+  padding-right: 0;
+  padding-left: 10px;
+}
 .project .project-text .stuff li i {
+  font-size: 14px;
+  padding-right: 5px;
+}
+.project .project-text2 .stuff li i {
   font-size: 14px;
   padding-right: 5px;
 }
@@ -606,7 +661,15 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
   line-height: 1.5;
 }
+.project .project-text2 h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
 .project .project-text h3 a {
+  color: black;
+}
+.project .project-text2 h3 a {
   color: black;
 }
 
@@ -649,6 +712,12 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.row.justify-content-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* important to wrap if many items */
 }
 
 /*# sourceMappingURL=style.css.map */
