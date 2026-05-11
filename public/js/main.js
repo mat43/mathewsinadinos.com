@@ -115,7 +115,10 @@
 		loaderPage();
 		fullHeight();
 		parallax();
+<<<<<<< HEAD
 		skillsWayPoint();
+=======
+>>>>>>> 5bd5cf4 (changes)
 	});
 
 
