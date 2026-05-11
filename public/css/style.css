@@ -4,10 +4,7 @@
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-<<<<<<< HEAD
-=======
   font-display: swap;
->>>>>>> 5bd5cf4 (changes)
 }
 
 body {
@@ -99,8 +96,6 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
 }
 
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 768px) {
   #header,
   .cover {
@@ -108,7 +103,6 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
->>>>>>> 5bd5cf4 (changes)
 #header .overlay,
 .cover .overlay {
   position: absolute;
@@ -270,34 +264,17 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .social-icons {
-<<<<<<< HEAD
-  margin: 0;
-=======
   margin: 20px 0 0;
->>>>>>> 5bd5cf4 (changes)
   padding: 0;
 }
 .social-icons li {
   margin: 0;
   padding: 0;
   list-style: none;
-<<<<<<< HEAD
-  display: -moz-inline-stack;
-  display: inline-block;
-  zoom: 1;
-  display: inline;
-}
-.social-icons li a {
-  display: -moz-inline-stack;
-  display: inline-block;
-  zoom: 1;
-  display: inline;
-=======
   display: inline-block;
 }
 .social-icons li a {
   display: inline-block;
->>>>>>> 5bd5cf4 (changes)
   color: #59a2ffd9;
   padding-left: 10px;
   padding-right: 10px;
@@ -571,11 +548,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
   position: relative;
   width: 100%;
-<<<<<<< HEAD
-  height: 355px;
-=======
   min-height: 300px;
->>>>>>> 5bd5cf4 (changes)
   padding: 30px;
   float: left;
   background: #fff;
@@ -590,11 +563,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
   position: relative;
   width: 100%;
-<<<<<<< HEAD
-  height: 410px;
-=======
   min-height: 300px;
->>>>>>> 5bd5cf4 (changes)
   padding: 30px;
   float: left;
   background: #fff;
