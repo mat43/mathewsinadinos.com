@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5505:5505"
+    restart: unless-stopped
